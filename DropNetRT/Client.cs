@@ -19,7 +19,7 @@ namespace DropNetRT
         /// <summary>
         /// Do not set this property directly, instead use SetUserToken
         /// </summary>
-        public UserLogin UserLogin { get; set; }
+        public UserLogin UserLogin { get; private set; }
 
         /// <summary>
         /// To use Dropbox API in sandbox mode (app folder access) set to true
